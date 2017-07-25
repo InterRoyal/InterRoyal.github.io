@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="description" content="< InterRoyal >">
+    <meta name="author" content="ClossoTruth">
+    
+    <title>< InterRoyal ></title>
+    
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/plugin.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+    
+    <!-- Main Script -->
+    <script>
+    
+        setInterval(function() {
+            var lele = document.querySelector("#counter");
+            var count = lele.textContent * 1 - 1;
+            lele.textContent = count;
+            if (count <= 1) {
+                location.href="index.html";
+            }else if (count >= 2) {
+              print("Please Wait...");
+            }
+        }, 1000);
+
+    </script>
+    <!-- End Main Script -->
+  </head>
+
+ <body>
+
+	 <!-- Preloader Start -->
+     <div class="preloader">
+	   <div class="rounder"></div>
+      </div>
+      <!-- Preloader End -->
+
+      <div id="counter">2</div>
+    
+    <!-- All Javascript Plugins  -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
+    
+    <script type="text/javascript" src="js/blocker.js"></script>
+    <script type="text/javascript" src="js/adsF.js"></script>
+    <script type="text/javascript" src="js/scale.fix.js"></script>
+    <!-- Main Javascript File  -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+
+    
+   </body>
+ </html>
